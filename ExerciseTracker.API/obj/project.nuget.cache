@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "wI7OOK076Bc4O3hz5+kgoJTBiwOwmrb+1p1FGvCN4PB5jlbo84l+yEfCuSebwQUyMybFCFiKqqWPWC75Mgu+UQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CokyMonster\\source\\repos\\ExerciseTracker\\ExerciseTracker.API\\ExerciseTracker.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CokyMonster\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\CokyMonster\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\CokyMonster\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\CokyMonster\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\CokyMonster\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\CokyMonster\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
