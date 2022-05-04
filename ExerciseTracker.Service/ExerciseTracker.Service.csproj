@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ExerciseTracker.Dal\ExerciseTracker.Dal.csproj" />
+    <ProjectReference Include="..\ExerciseTracker.Modules\ExerciseTracker.Modules.csproj" />
+  </ItemGroup>
+
 </Project>
