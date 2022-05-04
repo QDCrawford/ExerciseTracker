@@ -1,4 +1,5 @@
-﻿using ExerciseTracker.Dal.Repository.Repositories;
+﻿using ExerciseTracker.Dal.Models;
+using ExerciseTracker.Dal.Repository.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,7 +9,7 @@ namespace ExerciseTracker.Dal.Repository
 {
     public interface IUserRepository
     {
-        Task CreateUser();
+        Task CreateUser(User user);
         Task<List<User>> GetAllUsers();
     }
 }

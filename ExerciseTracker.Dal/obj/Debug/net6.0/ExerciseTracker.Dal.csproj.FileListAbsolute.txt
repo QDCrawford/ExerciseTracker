@@ -1,0 +1,14 @@
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\bin\Debug\net6.0\ExerciseTracker.Dal.deps.json
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\bin\Debug\net6.0\ExerciseTracker.Dal.runtimeconfig.json
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\bin\Debug\net6.0\ExerciseTracker.Dal.dll
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\bin\Debug\net6.0\ref\ExerciseTracker.Dal.dll
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\bin\Debug\net6.0\ExerciseTracker.Dal.pdb
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\obj\Debug\net6.0\ExerciseTracker.Dal.csproj.AssemblyReference.cache
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\obj\Debug\net6.0\ExerciseTracker.Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\obj\Debug\net6.0\ExerciseTracker.Dal.AssemblyInfoInputs.cache
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\obj\Debug\net6.0\ExerciseTracker.Dal.AssemblyInfo.cs
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\obj\Debug\net6.0\ExerciseTracker.Dal.csproj.CoreCompileInputs.cache
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\obj\Debug\net6.0\ExerciseTracker.Dal.dll
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\obj\Debug\net6.0\ref\ExerciseTracker.Dal.dll
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\obj\Debug\net6.0\ExerciseTracker.Dal.pdb
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Dal\obj\Debug\net6.0\ExerciseTracker.Dal.genruntimeconfig.cache
