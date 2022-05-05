@@ -8,6 +8,7 @@ namespace ExerciseTracter.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private static HttpClient client = new HttpClient();
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -25,16 +26,20 @@ namespace ExerciseTracter.Web.Controllers
         }
         
         [HttpPost]
-        public IActionResult User(UserViewModel user)
+        public async Task<IActionResult> UserAsync(UserViewModel user)
         {
-            user.ToString();
+            HttpResponseMessage response = await client.PostAsJsonAsync(
+                "https://localhost:7187/api/exercise/new-user", user);
+            response.EnsureSuccessStatusCode();
             return View();
         }
 
         [HttpPost]
-        public IActionResult Exercise(ExerciseViewModel exercise)
+        public async Task<IActionResult> ExerciseAsync(ExerciseViewModel exercise)
         {
-            exercise.ToString();
+            HttpResponseMessage response = await client.PostAsJsonAsync(
+                "https://localhost:7187/api/exercise/add", exercise);
+            response.EnsureSuccessStatusCode();
             return View();
         }
     }

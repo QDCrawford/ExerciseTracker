@@ -1,0 +1,1 @@
+Scaffold-DbContext "Server=.;Database=ExerciseTrackerDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -Project "ExerciseTracker.Dal" -OutputDir Models -Force
