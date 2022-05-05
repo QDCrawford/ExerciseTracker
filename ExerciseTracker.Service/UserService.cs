@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ExerciseTracker.Service
 {
-    internal class UserService
+    public class UserService
     {
         private readonly IUserRepository _userRepository;
 
@@ -27,9 +27,15 @@ namespace ExerciseTracker.Service
             });
         }
 
-        public async Task<List<User>> GetAllUserExercises()
+        public async Task<List<UserViewModel>> GetAllUser()
         {
-            return await _userRepository.GetAllUsers();
+            var usersList = await _userRepository.GetAllUsers();
+
+            return usersList.Select(a => new UserViewModel()
+            {
+                UserName = a.UserName,
+                UserID = a.UserId
+            }).ToList();
         }
     }
 }

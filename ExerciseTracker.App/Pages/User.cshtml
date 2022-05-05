@@ -1,0 +1,39 @@
+﻿@page
+@model ExerciseTracker.App.Pages.UserModel
+@{
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<form id="form1" method="post">
+  <input name="Username" type="text" placeholder="Username" value="" />
+  <br/>
+  <br/>
+  <input type="submit" onclick="btnsubmitClick(this)" name="Submit" value="Submit" />
+</form>
+
+<script type="text/javascript">
+    $("#form1").submit(function (args) {
+        args.preventDefault();
+        
+    });
+
+    function btnsubmitClick(){
+        $.ajax({
+            type: "POST",
+            url: "https://localhost:7187//api/exercise/new-user",
+            data: {
+                user: null
+            },
+            success: function (response) {
+              console.log(response);
+            },
+            failure: function (response) {
+              console.log(response);
+            },
+            error: function (response) {
+              console.log(response);
+            },
+        });
+    }
+</script>
+

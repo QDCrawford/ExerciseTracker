@@ -10,5 +10,7 @@ namespace ExerciseTracker.Dal.Models
         public string Description { get; set; } = null!;
         public int Duration { get; set; }
         public DateTime? Date { get; set; }
+
+        public virtual User User { get; set; } = null!;
     }
 }

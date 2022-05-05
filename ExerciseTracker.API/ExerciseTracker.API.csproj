@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\ExerciseTracker.Dal\ExerciseTracker.Dal.csproj" />
+    <ProjectReference Include="..\ExerciseTracker.Modules\ExerciseTracker.Modules.csproj" />
+    <ProjectReference Include="..\ExerciseTracker.Service\ExerciseTracker.Service.csproj" />
   </ItemGroup>
 
 </Project>

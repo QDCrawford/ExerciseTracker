@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ExerciseTracter.Web/1.0.0": {
+        "dependencies": {
+          "ExerciseTracker.Modules": "1.0.0"
+        },
+        "runtime": {
+          "ExerciseTracter.Web.dll": {}
+        }
+      },
+      "ExerciseTracker.Modules/1.0.0": {
+        "runtime": {
+          "ExerciseTracker.Modules.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExerciseTracter.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExerciseTracker.Modules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

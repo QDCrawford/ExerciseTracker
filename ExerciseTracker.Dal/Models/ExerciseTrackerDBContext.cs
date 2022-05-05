@@ -18,7 +18,6 @@ namespace ExerciseTracker.Dal.Models
 
         public virtual DbSet<Exercise> Exercises { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
-        public virtual DbSet<UserExercise> UserExercises { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -44,6 +43,12 @@ namespace ExerciseTracker.Dal.Models
                 entity.Property(e => e.Description)
                     .HasMaxLength(500)
                     .IsUnicode(false);
+
+                entity.HasOne(d => d.User)
+                    .WithMany(p => p.Exercises)
+                    .HasForeignKey(d => d.UserId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Exercises_Users");
             });
 
             modelBuilder.Entity<User>(entity =>
@@ -55,27 +60,6 @@ namespace ExerciseTracker.Dal.Models
                 entity.Property(e => e.UserName)
                     .HasMaxLength(225)
                     .IsUnicode(false);
-            });
-
-            modelBuilder.Entity<UserExercise>(entity =>
-            {
-                entity.HasNoKey();
-
-                entity.Property(e => e.ExerciseId).HasColumnName("ExerciseID");
-
-                entity.Property(e => e.UserId).HasColumnName("UserID");
-
-                entity.HasOne(d => d.User)
-                    .WithMany()
-                    .HasForeignKey(d => d.UserId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_UserExercises_Users");
-
-                entity.HasOne(d => d.Exercise)
-                    .WithMany()
-                    .HasForeignKey(d => new { d.ExerciseId, d.UserId })
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_UserExercises_Exercises");
             });
 
             OnModelCreatingPartial(modelBuilder);

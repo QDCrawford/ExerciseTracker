@@ -1,0 +1,35 @@
+﻿@page
+@model ExerciseTracker.App.Pages.ExerciseModel
+@{
+}
+
+<form id="form2" method="post">
+  <input name="UserID" type="text" placeholder="UserID*" value="" required/><br />
+  <input name="description" type="text" placeholder="Description*" value="" required/><br />
+  <input name="duration" type="text" placeholder="Duration*(mins.)" value="" required/><br />
+  <input name="date" type="text" placeholder="Date (yyyy-mm-dd)" value="" /><br />
+  <br/>
+  <input type="submit" name="Submit" value="Submit" />
+</form>
+
+<script type="text/javascript">
+    $("#form2").submit(function (args) {
+        args.preventDefault();
+        $.ajax({
+            type: "POST",
+            url: "https://localhost:7187/api/exercise/add",
+            data: {
+                exercise: args
+            },
+            success: function (response) {
+              console.log(response);
+            },
+            failure: function (response) {
+              console.log(response);
+            },
+            error: function (response) {
+              console.log(response);
+            },
+        });
+    });
+</script>

@@ -30,10 +30,17 @@ namespace ExerciseTracker.Service
             });
         }
 
-        public async Task<List<Exercise>> GetUserExercises(Guid UserID, DateTime? from, DateTime? to, int limit)
+        public async Task<List<ExerciseViewModel>> GetUserExercises(Guid UserID, DateTime? from, DateTime? to, int? limit)
         {
             var exerciseList = await _exerciseRepository.GetUserExercises(UserID, from, to, limit);
-            return exerciseList;
+
+            return exerciseList.Select(a => new ExerciseViewModel()
+            {
+                Date = a.Date,
+                Description = a.Description,
+                Duration = a.Duration,
+                UserId = a.UserId,
+            }).ToList();
         }
     }
 }

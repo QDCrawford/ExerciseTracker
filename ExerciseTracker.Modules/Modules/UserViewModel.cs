@@ -9,6 +9,7 @@ namespace ExerciseTracker.Modules.Modules
 {
     public class UserViewModel
     {
+        public Guid UserID { get; set; }
         [Required(ErrorMessage = "UserName is required.")]
         public string UserName { get; set; }
     }

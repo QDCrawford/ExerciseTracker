@@ -20,6 +20,7 @@ namespace ExerciseTracker.Dal.Repository.Repositories
         public async Task CreateUser(Models.User user)
         {
             _context.Users.Add(user);
+            _context.SaveChanges();
         }
         public async Task<List<User>> GetAllUsers()
         {

@@ -19,14 +19,15 @@ namespace ExerciseTracker.Dal.Repository.Repositories
         public async Task CreateExercise(Exercise exercise)
         {
             _context.Exercises.Add(exercise);
+            _context.SaveChanges();
         }
-        public async Task<List<Exercise>> GetUserExercises(Guid UserID, DateTime? from, DateTime? to, int limit)
+        public async Task<List<Exercise>> GetUserExercises(Guid UserID, DateTime? from, DateTime? to, int? limit)
         {
             var query = _context.Exercises.AsQueryable().Where(e => e.UserId == UserID);
-
-            if (limit > 0)
+            
+            if (limit != null && limit > 0)
             {
-                query = query.Take(limit);
+                query = query.Take(limit.Value);
             }
             if (from != null)
             {

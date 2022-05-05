@@ -20,3 +20,5 @@ C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.App\obj\Debug\
 C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.App\obj\Debug\net6.0\ref\ExerciseTracker.App.dll
 C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.App\obj\Debug\net6.0\ExerciseTracker.App.pdb
 C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.App\obj\Debug\net6.0\ExerciseTracker.App.genruntimeconfig.cache
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.App\obj\Debug\net6.0\ExerciseTracker.App.RazorAssemblyInfo.cache
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.App\obj\Debug\net6.0\ExerciseTracker.App.RazorAssemblyInfo.cs

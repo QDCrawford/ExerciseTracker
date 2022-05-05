@@ -10,3 +10,8 @@ C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Service\obj\De
 C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Service\obj\Debug\net6.0\ExerciseTracker.Service.dll
 C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Service\obj\Debug\net6.0\ref\ExerciseTracker.Service.dll
 C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Service\obj\Debug\net6.0\ExerciseTracker.Service.pdb
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Service\bin\Debug\net6.0\ExerciseTracker.Dal.dll
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Service\bin\Debug\net6.0\ExerciseTracker.Modules.dll
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Service\bin\Debug\net6.0\ExerciseTracker.Dal.pdb
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Service\bin\Debug\net6.0\ExerciseTracker.Modules.pdb
+C:\Users\CokyMonster\source\repos\ExerciseTracker\ExerciseTracker.Service\obj\Debug\net6.0\ExerciseTracker.Service.csproj.CopyComplete

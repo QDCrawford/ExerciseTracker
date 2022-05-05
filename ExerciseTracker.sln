@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseTracker.Service", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseTracker.Dal", "ExerciseTracker.Dal\ExerciseTracker.Dal.csproj", "{231CBC82-0BF6-4D25-8786-61A1D9FA5ACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseTracker.App", "ExerciseTracker.App\ExerciseTracker.App.csproj", "{D38E4E39-D700-45EF-A643-8603D47E3515}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseTracter.Web", "ExerciseTracter.Web\ExerciseTracter.Web.csproj", "{97209E9E-296F-48E5-9DD7-749FA3C5A4D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{231CBC82-0BF6-4D25-8786-61A1D9FA5ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{231CBC82-0BF6-4D25-8786-61A1D9FA5ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{231CBC82-0BF6-4D25-8786-61A1D9FA5ACE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D38E4E39-D700-45EF-A643-8603D47E3515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D38E4E39-D700-45EF-A643-8603D47E3515}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D38E4E39-D700-45EF-A643-8603D47E3515}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D38E4E39-D700-45EF-A643-8603D47E3515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97209E9E-296F-48E5-9DD7-749FA3C5A4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97209E9E-296F-48E5-9DD7-749FA3C5A4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97209E9E-296F-48E5-9DD7-749FA3C5A4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97209E9E-296F-48E5-9DD7-749FA3C5A4D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
